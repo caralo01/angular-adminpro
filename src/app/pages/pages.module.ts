@@ -1,7 +1,11 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 //Module
 import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
 
 //Rutas
 import { PAGES_ROUTES } from './pages.routes';
@@ -27,6 +31,9 @@ import { Graficas1Component } from './graficas1/graficas1.component';
   ],
   imports: [
   	SharedModule,
+    ComponentsModule,
+    FormsModule,
+    BrowserModule,
     PAGES_ROUTES
   ]
 })
