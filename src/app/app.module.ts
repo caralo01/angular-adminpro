@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { RegisterComponent } from './register/register.component';
 
+import { ServiceModule } from './services/service.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,7 @@ import { RegisterComponent } from './register/register.component';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
+    ServiceModule,
     FormsModule
   ],
   providers: [],
