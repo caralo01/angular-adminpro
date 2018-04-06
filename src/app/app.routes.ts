@@ -2,10 +2,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { PagesComponent } from './pages/pages.component';
 
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { ProgressComponent } from './pages/progress/progress.component';
-import { Graficas1Component } from './pages/graficas1/graficas1.component';
-
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
